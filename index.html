@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <!--fatma mohmed salem-->
+
+
+
+    <meta charset="UTF-8">
+    <title>skincare junkies</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <script>
+    function scrolll() {
+        var left = document.querySelector(".scroll-images");
+        left.scrollBy(350, 0)
+    }
+  
+    function scrollr() {
+        var right = document.querySelector(".scroll-images");
+        right.scrollBy(-350, 0)
+    }
+  </script>
+  <header>
+  <a href="#" class="logo">Skincare junkies</a>
+  <nav class="navigation">
+   <a href="loginadmin.html"> Admin </a>
+   <a href="login.html">Login</a>
+   <a href="mayada.html">Contact</a> 
+  </nav>
+  </header>
+  <section class="main">
+    <div>
+        <h2>Hi <br></h2>
+        <h3>all you want is here</h3>
+        <a href="#categories"  class="main-btn">Categories</a>
+    
+    <div class="social-icons">
+        <a href="https://www.facebook.com/fatma.mohmed.7796420"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/fatma-mohmed-304533246/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Fatma203"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+<!--image slider-->
+<section class="slider">
+  <div class="main-scroll-div">
+ <div>
+ <button class="btn" onclick="scrolll()"> <i class="fas fa-angle-double-left"></i></button>
+   </div>
+       <div class="cover">
+          <div class="scroll-images">
+              <div class="child"><img class="child-img" src="cleansers/vichy.jpg" alt="image"></div>
+             <div class="child"><img class="child-img" src="cleansers/bioderma.jpg" alt="image"></div>
+             <div class="child"><img class="child-img" src="img/cerave.jpg" alt="image"></div>
+             <div class="child"><img class="child-img" src="img/glossier.jpg" alt="image"></div>
+             <div class="child"><img class="child-img" src="SPF/the ordinary.png" alt="image"></div>
+             <div class="child"><img class="child-img" src="SPF/netrogena.jpg" alt="image"></div>
+         </div>
+       </div>
+   <div>
+ <button class="btn" onclick="scrollr()"> <i class="fas fa-angle-double-right"></i></button>
+  </div>
+ </div>
+ </section>
+
+           <!--services-->
+
+  <section class="cards" id="services">
+    <h2 class="title">Servieces</h2>
+    <div class="content">
+      <div class="card">
+        <div class="icon">
+          <i class="fas fa-hand-holding-usd"></i>
+        </div>
+        <div class="info">
+          <h3>Good Price</h3>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">
+          <i class="fas fa-shipping-fast"></i>
+        </div>
+        <div class="info">
+          <h3>Fast Shipping</h3>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <i class="fas fa-award"></i>
+        </div>
+        <div class="info">
+          <h3>Good Quality</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+            <!--categories-->
+
+
+  <section class="categories" id="categories">
+    <h1 class="cat">Categories</h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="categories/cleanser.jpg">
+            <div class="content">
+                <a href="shop.html#Cleansers" id="cleansers" class="btn"><h3>Cleansers</h3></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="categories/moisturizer.jpg">
+            <div class="content">
+                <a href="shop.html#Moisturizers" id="moisturizers" class="btn"> <h3>Moisturizers</h3></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="categories/spf.jpg">
+            <div class="content">
+                <a href="shop.html#SPF" class="btn"> <h3>SPF</h3></a>
+            </div>
+        </div>
+        </div>
+  </section>
+  <footer class="footer">
+    <p><small>&copy; Copyright 2018, pink team .All Rights Deserved</small> </p>
+
+  </footer>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive registration form |coding</title>
+    <link rel="stylesheet" href="css/register.html">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+
+        }
+
+        body {
+            padding: 0%;
+            margin: 0%;
+            font-family: sans-serif;
+            background-image: url(R.jfif);
+            background-size: cover;
+
+
+        }
+
+        form {
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 425px;
+            height: 540px;
+            background: rgba(0, 0, 0, .3);
+            border-radius: 15px;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: #fff;
+            text-align: center;
+            margin-top: 6%;
+
+        }
+
+        input[type="text1"],
+        [type="text"],
+        [type="email"],
+        [type="phone"],
+        [type="add"],
+        [type="password"],
+        [type="password2"] {
+            position: absolute;
+            outline: none;
+            border: none;
+            width: 250px;
+            height: 35px;
+            border-bottom: 2px solid #0094ff;
+            background: none;
+            padding: 5px;
+            color: #fff;
+        }
+
+        input[type="text1"] {
+            top: 55px;
+
+        }
+
+        input[type="text"] {
+            top: 95px;
+
+        }
+
+        input[type="email"] {
+            top: 138px;
+
+        }
+
+        input[type="phone"] {
+            top: 180px;
+        }
+
+        input[type="add"] {
+            top: 220px;
+        }
+
+        input[type="password"] {
+            top: 260px;
+        }
+
+        input[type="password2"] {
+
+            top: 300px;
+        }
+
+        ::placeholder {
+            color: #fff;
+        }
+
+        .p2 {
+            position: absolute;
+            top: 355px;
+
+
+        }
+
+        input[value=".p2"]:hover {
+            background: #fff;
+            color: #0077FF
+        }
+
+        .button {
+            position: absolute;
+            top: 400px;
+            left: 15px;
+            border-radius: 20px;
+        }
+
+        input[value="Register"] {
+
+            position: absolute;
+            top: 400px;
+            left: 110px;
+            width: 130px;
+            height: 35px;
+            background: #0077FF;
+            border: none;
+            outline: none;
+            color: #fff;
+            border-radius: 15px;
+            font-size: 20px;
+        }
+
+        input[value="Register"]:hover {
+            background: #fff;
+            color: #0077FF
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form action="../index.html">
+        <h2>Registration</h2>
+        <input type="text1" placeholder="First name" required>
+        <br>
+        <input type="text" placeholder="Last name" required>
+        <br>
+        <input type="email" placeholder="Email" required>
+        <br>
+        <input type="phone" placeholder="Phone" required>
+        <br>
+        <input type="add" placeholder="address" required>
+        <br>
+        <input type="password" placeholder="password" required>
+
+        <br>
+        <input type="password2" placeholder=" Confirm password" required>
+        <br>
+        <table class="p2">
+            <tr>
+                <td>
+                    Gender :
+                </td>
+                <td>
+                    <input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Femal
+
+                </td>
+            </tr>
+        </table>
+
+        <input type="submit" value="Register" class="btn-Register">
+
+
+    </form>
+
+
+</body>
+
+</html>

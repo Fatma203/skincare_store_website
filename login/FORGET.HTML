@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>forgot password</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding: 0%;
+            margin: 0%;
+            font-family: sans-serif;
+            background-size: cover;
+            background-image: url(R.jfif);
+        }
+
+        form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 340px;
+            height: 220px;
+            background: rgba(0, 0, 0, .2);
+            border-radius: 15px;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: black;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        input[type="email"] {
+            position: absolute;
+            outline: none;
+            border: none;
+            width: 250px;
+            height: 35px;
+            border-bottom: 1px solid #0094ff;
+            background: none;
+            padding: 5px;
+            color: #fff;
+        }
+
+        input[value="SUBMIT"] {
+            position: absolute;
+            top: 150px;
+            left: 110px;
+            width: 130px;
+            height: 35px;
+            background: #0077FF;
+            border: none;
+            outline: none;
+            color: #fff;
+            border-radius: 15px;
+            font-size: 20px;
+        }
+
+        input[value="SUBMIT"]:hover {
+            background: #fff;
+            color: #0077FF
+        }
+    </style>
+</head>
+
+<body>
+    <form action="../index.html">
+
+        <h2>Forgot password</h2>
+
+
+        <input type="email" placeholder="Email" required>
+
+        <input type="submit" value="SUBMIT" class="btn-submit">
+
+    </form>
+</body>
+</html>
